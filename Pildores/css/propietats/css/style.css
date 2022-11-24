@@ -1,0 +1,11 @@
+div {
+    border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+    border-style:solid;        
+    border-color: rgb(255, 0, 0); /* red */
+    
+    
+    border: 2px solid yellow ;
+    border-radius: 5px;
+}
+
+  

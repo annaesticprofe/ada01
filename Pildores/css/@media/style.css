@@ -1,0 +1,42 @@
+body {
+    font-size: 26px;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+.caja {
+    margin: 0 auto;
+    width: 800px;
+}
+
+img {
+    width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .caja {
+        width: 400px;
+        font-size: 20px ;
+    }
+
+    img {
+        width: 80%;
+    }
+
+
+}
+
+@media only screen and (max-width: 700px) {
+    .caja {
+        width: 200px;
+        font-size: 10px ;
+    }
+
+    img {
+        width: 100%;
+    }
+}

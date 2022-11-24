@@ -1,0 +1,287 @@
+* {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	text-transform: none;
+	color: #4A90E2;
+}
+
+body {
+	font-family: lato, ubuntu, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+	line-height: 1;	
+	font-size: 19px;
+	background-color: #FEFEFE;
+	color: #04143A;
+}
+
+div {
+	/* Si trec aixo les caixes de yoga, pujar .... es desmaqueten */
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1100px;
+	height: auto;
+	margin: 60px auto;
+	border: 0px solid red;
+}
+
+.hero {
+	margin: 50px auto;
+	position: relative;
+	border: 0px solid red;
+}
+
+/* Styles del nom  */
+h1.name {
+	font-size: 70px;
+	font-weight: 300;	
+}
+
+
+/* capçalera perfil profesional */
+.lead {
+	font-size: 44px;
+	font-weight: 300;
+	line-height: 55px;
+}
+
+.email {
+	font-size: 24px;
+	font-weight: 300;
+	color: #81899C;	
+	line-height: 55px;
+}
+
+
+
+/*CV trajectoria i competències */
+
+.sections {
+	/* PEr ficar el contingut TRajectoria + Competencies */
+	display: inline-block;
+	vertical-align: top;
+	border: 0px solid red;	
+	width: 47%;
+	height: 380px;
+}
+
+.section-title {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+
+.list-card {
+	margin: 30px 0;
+	border: 0px solid green;	
+}
+
+.list-card .exp,
+.list-card div {
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+}
+
+.list-card .exp {
+	margin-right: 15px;
+	color: #4A90E2;
+	font-weight: 600;
+	width: 100px;
+}
+
+.list-card h3 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #5B6A9A;
+	line-height: 26px;
+	margin-bottom: 8px;
+}
+
+.list-card div span {
+	font-size: 16px;
+	color: #81899C;
+	line-height: 22px;
+}
+
+/*FI CV trajectoria i competències */
+
+/* INTERESSOS  */
+
+.cards {
+/* 	height: auto; */
+	/* max-width: 1120px; */
+	display: block;
+	margin-top: 280px;
+}
+
+.card {
+	width: 47.9%;
+	height: 150px;
+	background-color: #EEF0F7;
+	display: inline-block;
+	margin: 7px 5px;
+	vertical-align: top;
+	border-radius: 30px;
+	text-align: center;
+	padding-top: 20px
+}
+
+.card-active,
+.card:hover {
+	background-color: #fff;
+	box-shadow: 0px 5px 50px -8px #ddd;
+	cursor: pointer;
+}
+
+
+/* iCONES DELS INTERESSOS */
+.skill-level {
+	display: inline-block;
+	max-width: 160px;
+}
+
+.skill-level span {
+	font-size: 35px;
+	font-weight: 300;
+	color: #5B6A9A;
+	vertical-align: top;
+}
+
+.skill-level h2 {
+	font-size: 95px;
+	font-weight: 300;
+	/* display: inline-block; */
+	vertical-align: top;
+	color: #5B6A9A;
+/* 	letter-spacing: -5px; */
+}
+
+.skill-meta {
+	vertical-align: top;
+	display: inline-block;
+	max-width: 300px;
+	text-align: left;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.skill-meta h3 {
+	font-size: 20px;
+	font-weight: 800;
+	color: #5B6A9A;
+	margin-bottom: 5px;
+}
+
+.skill-meta span {
+	color: #81899C;
+	line-height: 20px;
+	font-size: 16px;
+}
+
+/* Achievements ends */
+
+
+
+
+/* Media queries*/
+
+@media(max-width: 1024px) {
+	.container {
+		padding: 15px;
+		margin: 0px auto;
+	}
+
+	.cards {
+		margin-top: 250px;
+	}
+}
+
+@media(max-width: 768px) {
+	.container {
+		padding: 15px;
+		margin: 0px auto;
+	}
+
+	.cards {
+		margin-top: 320px;
+	}
+
+	.card {
+		padding: 15px;
+		text-align: left;
+	}
+
+	.card h2 {
+		font-size: 70px;
+	}
+
+	.card,
+	.sections {
+		width: 100%;
+		height: auto;
+		margin: 10px 0;
+		float: left;
+	}
+
+
+
+
+	/* .timeline {
+		border: none;
+		background-color: rgba(0, 0, 0, 0);
+	}
+
+	.timeline li {
+		margin-top: 70px;
+		height: 150px;
+	} */
+}
+
+
+@media(max-width: 425px) {
+	h1.name {
+		font-size: 40px;
+	}
+
+	.card,
+	.sections {
+		width: 100%;
+		height: auto;
+		margin: 10px 0;
+		float: left;
+	}
+
+/* 	.list-card div {		
+	
+	} */
+
+/* 	.list-card div span {		
+		width: 150%;
+	}  */
+
+
+	.job-title {
+		position: absolute;
+		font-size: 15px;
+		top: -40px;
+		right: 20px;
+		padding: 10px
+	}
+
+	.lead {
+		margin-top: 15px;
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.container {
+		margin: 0px;
+		padding: 0 15px;
+
+	}
+
+}

@@ -1,0 +1,26 @@
+/* Estilo del encabezado */
+.header {
+  background-color: #FFD700;
+  padding: 30px;
+  text-align: center;
+  font-size: 45px;
+}
+
+/* Create 3 columnas */
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 80px;
+  /* Should be removed. Only for demonstration */
+  background-color: #becdfe;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 80px;
+  /* Should be removed. Only for demonstration */
+  background-color: #BDB76B;
+}
