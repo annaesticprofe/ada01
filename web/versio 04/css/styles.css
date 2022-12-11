@@ -76,17 +76,19 @@ h1.name {
 
 .list-card {
 	margin: 30px 0;
-	border: 0px solid green;	
+	border: 1px solid green;	
 }
 
 .list-card .exp,
 .list-card div {
+	border: 1px solid green;	
 	display: inline-block;
 	vertical-align: top;
 	width: 70%;
 }
 
 .list-card .exp {
+	border: 1px solid green;	
 	margin-right: 15px;
 	color: #4A90E2;
 	font-weight: 600;
@@ -94,6 +96,7 @@ h1.name {
 }
 
 .list-card h3 {
+	border: 1px solid green;	
 	font-size: 20px;
 	font-weight: 600;
 	color: #5B6A9A;

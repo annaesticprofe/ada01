@@ -1,0 +1,151 @@
+/****************************************************/
+/* Styles generals per tot el body de la pàgina web */
+/****************************************************/
+body {
+    font-family: sans-serif;
+    line-height: 1;
+    font-size: 19px;
+    background-color: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    /* Majuscules, minuscules ..  */
+    text-transform: none;
+    color: #4A90E2;
+}
+
+
+/************************************/
+/* Styles pel contenidor principal  */
+/************************************/
+.container {
+    border: 1px solid red;
+    /* Maxima amplada 1100 pixels  */
+    max-width: 1100px;
+    /* Fiquem marge superior  */
+    margin: 30px auto;
+    /* establim alçada automàtica*/
+    height: auto;
+}
+
+
+/****************************/
+/* Styles per la capsalera  */
+/****************************/
+.hero {
+    border: 1px solid green;
+    margin: 50px auto;
+    position: relative;
+}
+
+/* Styles del nom  */
+h1.name {
+    font-size: 70px;
+    font-weight: 300;
+}
+
+/* capçalera perfil profesional */
+.lead {
+    font-size: 44px;
+    font-weight: 300;
+}
+
+/* capçalera email */
+.email {
+    font-size: 24px;
+    font-weight: 300;
+    color: #81899C;
+}
+
+/*********************************/
+/* CV trajectoria i competències */
+/*********************************/
+.sectionsCV {
+    /* PEr ficar el contingut TRajectoria + Competencies */
+    border: 0px solid blue;
+    /* inline-block: permet establir una amplada i una alçada a l'element. */
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    height: 700px;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.list-trajectoria {
+    border: 0px solid purple;
+    margin: 20px 5px;        
+    vertical-align: top;    
+}
+
+.list-trajectoria .exp {    
+	border: 0px solid green;	
+    display: inline-block;
+	margin-right: 5px;
+    vertical-align: top;
+	color: #4A90E2;
+	font-weight: 600;
+	width: 18%;
+    padding-top: 20px;
+}
+
+.list-trajectoria div {
+	border: 0px solid green;	
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+}
+
+.list-trajectoria h3 {
+    border: 0px solid purple;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5B6A9A;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+
+
+.list-trajectoria span {
+    font-size: 16px;
+    color: #81899C;
+    line-height: 22px;
+     
+}
+
+/* interessos  */
+.card {
+    width: 47.9%;
+    height: 150px;
+    background-color: #EEF0F7;
+    display: inline-block;
+    margin: 7px 5px;
+    vertical-align: top;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 20px
+}
+
+
+/* INTERESSOS  */
+.cards {
+    /* 	height: auto; */
+    /* max-width: 1120px; */
+    display: block;
+    margin-top: 280px;
+}
+
+
+.card-active,
+.card:hover {
+    background-color: #fff;
+    box-shadow: 0px 5px 50px -8px #ddd;
+    cursor: pointer;
+}
