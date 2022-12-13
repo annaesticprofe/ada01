@@ -21,13 +21,11 @@ a {
 /* Styles pel contenidor principal  */
 /************************************/
 .container {
-    border: 1px solid red;
+    border: 0px solid red;
     /* Maxima amplada 1100 pixels  */
     max-width: 1100px;
     /* Fiquem marge superior  */
-    margin: 30px auto;
-    /* establim alçada automàtica*/
-    height: auto;
+    margin: 50px auto;   
 }
 
 
@@ -35,40 +33,51 @@ a {
 /* Styles per la capsalera  */
 /****************************/
 .hero {
-    border: 1px solid green;
-    margin: 50px auto;
-    position: relative;
+    border: 0px solid green;
+    margin: 0px;
+    padding-bottom: 10px;
+    height: auto;
 }
 
 /* Styles del nom  */
 h1.name {
+    border: 0px solid red;
     font-size: 70px;
     font-weight: 300;
+    margin: 0px;
+    padding-bottom: 10px;
 }
 
 /* capçalera perfil profesional */
 .lead {
+    border: 0px solid red;
     font-size: 44px;
     font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
 }
 
 /* capçalera email */
 .email {
+    border: 0px solid red;
     font-size: 24px;
     font-weight: 300;
     color: #81899C;
+    margin: 0px;
+    padding: 0px;
 }
 
 /*********************************/
-/* CV trajectoria i competències */
+/* CV competencies i competències */
 /*********************************/
 .sectionsCV {
-    /* PEr ficar el contingut TRajectoria + Competencies */
+    /* PEr ficar el contingut competencies + Competencies */
     border: 0px solid blue;
     /* inline-block: permet establir una amplada i una alçada a l'element. */
     display: inline-block;
     vertical-align: top;
-    width: 47%;
+    width: 49%;
     height: 700px;
 }
 
@@ -80,26 +89,26 @@ h1.name {
 
 .list-trajectoria {
     border: 0px solid purple;
-    margin: 20px 5px;        
-    vertical-align: top;    
+    margin: 20px 5px;
+    vertical-align: top;
 }
 
-.list-trajectoria .exp {    
-	border: 0px solid green;	
+.list-trajectoria .exp {
+    border: 0px solid green;
     display: inline-block;
-	margin-right: 5px;
+    margin-right: 5px;
     vertical-align: top;
-	color: #4A90E2;
-	font-weight: 600;
-	width: 18%;
+    color: #4A90E2;
+    font-weight: 600;
+    width: 18%;
     padding-top: 20px;
 }
 
 .list-trajectoria div {
-	border: 0px solid green;	
-	display: inline-block;
-	vertical-align: top;
-	width: 78%;
+    border: 0px solid green;
+    display: inline-block;
+    vertical-align: top;
+    width: 78%;
 }
 
 .list-trajectoria h3 {
@@ -111,41 +120,191 @@ h1.name {
     margin-bottom: 8px;
 }
 
-
-
 .list-trajectoria span {
     font-size: 16px;
     color: #81899C;
     line-height: 22px;
-     
+
 }
 
-/* interessos  */
-.card {
-    width: 47.9%;
-    height: 150px;
-    background-color: #EEF0F7;
-    display: inline-block;
-    margin: 7px 5px;
+
+.list-competencies {
+    border: 0px solid purple;
+    margin: 20px 5px;
     vertical-align: top;
-    border-radius: 30px;
-    text-align: center;
-    padding-top: 20px
+}
+
+.list-competencies div {
+    border: 0px solid green;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+.list-competencies h3 {
+    border: 0px solid purple;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5B6A9A;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+.list-competencies span {
+    font-size: 16px;
+    color: #81899C;
+    line-height: 22px;
 }
 
 
 /* INTERESSOS  */
-.cards {
-    /* 	height: auto; */
-    /* max-width: 1120px; */
-    display: block;
-    margin-top: 280px;
+
+.contenidor-interessos {
+    border: 0px solid purple;
+    /* height: auto;   */
+       max-width: 1100px;
+    /* display: block; */
 }
 
+.interes {
+    border: 0px solid green;
+    display: inline-block;
+    width: 48%;
+    height: 130px;
+    background-color: #EEF0F7;
+    margin: 7px 5px;
+    vertical-align: top;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
 
-.card-active,
-.card:hover {
+.interes-active,
+.interes:hover {
     background-color: #fff;
     box-shadow: 0px 5px 50px -8px #ddd;
     cursor: pointer;
 }
+
+/* iCONES DELS INTERESSOS */
+.interes-banner {
+    border: 0px solid blue;
+    display: inline-block;
+    max-width: 160px;
+}
+
+/* .interes-banner span {
+	font-size: 35px;
+	font-weight: 300;
+	color: #5B6A9A;
+	vertical-align: top;
+} */
+
+/* .skill-level h2 {
+	font-size: 95px;
+	font-weight: 300;
+	display: inline-block; 
+	vertical-align: top;
+	color: #5B6A9A;
+ 	letter-spacing: -5px; 
+} */
+
+.interes-descripcio {
+    border: 0px solid yellow;
+    display: inline-block;
+    max-width: 65%;
+    text-align: left;
+    /* margin-top: 15px; */
+    margin-left: 15px;    
+}
+
+.interes-descripcio h3 {
+    border: 0px solid pink;    
+    font-size: 20px;
+    font-weight: 800;
+    color: #5B6A9A;
+    
+}
+
+.interes-descripcio span {
+    border: 0px solid black;
+    color: #81899C;
+    line-height: 20px;
+    font-size: 16px; 
+}
+
+/* Media queries*/
+
+/* tablet :horizontal */
+@media(max-width: 992px) {
+    .sectionsCV {      
+        width: 47%;
+        height: 780px;
+    }
+
+	.container {
+		padding: 15px;
+		margin: 0px auto;
+	}
+
+ 	.contenidor-interessos {
+        margin-top: 10px;
+        max-width: 1000px;
+	} 
+
+}
+
+/* tablet :vertical */
+@media(max-width: 768px) {
+    .sectionsCV {      
+        height: 850px;
+    }
+    
+/*     .contenidor-interessos {
+        margin-top: 10px;
+        max-width: 1000px;
+	}  */
+
+
+}
+
+/* mobil :horitzontal/vertical */
+@media(max-width: 768px) {
+    .sectionsCV {      
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .contenidor-interessos {
+        border: 1px solid purple;
+    }
+
+    .interes {
+        border: 1px solid green;
+        display: block;
+        width: 70%;    
+        margin-bottom: 30px;
+    }
+
+}
+
+
+/* @media(max-width: 425px) {
+    .lead {
+		margin-top: 15px;
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.container {
+		margin: 0px;
+		padding: 0 15px;
+	}
+
+	h1.name {
+		font-size: 40px;
+	}
+
+
+} */
